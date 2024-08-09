@@ -293,6 +293,11 @@ GEM
       capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
+    postmark (1.25.1)
+      json
+    postmark-rails (0.22.1)
+      actionmailer (>= 3.0.0)
+      postmark (>= 1.21.3, < 2.0)
     premailer (1.16.0)
       addressable
       css_parser (>= 1.6.0)
@@ -514,6 +519,7 @@ DEPENDENCIES
   phantomjs
   pjax_rails
   poltergeist
+  postmark-rails
   pry-rails
   puma
   rack-ssl
