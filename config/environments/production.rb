@@ -57,7 +57,7 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "errbit_#{Rails.env}"
   config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method = :postmark
-  config.action_mailer.postmark_settings = { api_token: "cef7a8e9-5d88-4283-9a05-dca1417c9a56" }
+  config.action_mailer.postmark_settings = { api_token: ENV['POSTMARK_API_TOKEN'] }
   config.action_mailer.default_url_options = { host: 'errors.services.commutatus.com', protocol: 'https' }
 
   # Ignore bad email addresses and do not raise email delivery errors.
