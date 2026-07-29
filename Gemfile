@@ -113,4 +113,6 @@ gem "jquery-rails"
 gem "pjax_rails"
 gem "underscore-rails"
 
+gem "postmark-rails"
+
 eval_gemfile "./UserGemfile"

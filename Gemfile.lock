@@ -388,6 +388,11 @@ GEM
     pjax_rails (0.5.1)
       jquery-rails
       railties (>= 4.0)
+    postmark (1.25.1)
+      json
+    postmark-rails (0.22.1)
+      actionmailer (>= 3.0.0)
+      postmark (>= 1.21.3, < 2.0)
     pp (0.6.4)
       prettyprint
     premailer (1.29.0)
@@ -706,6 +711,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection
   ostruct
   pjax_rails
+  postmark-rails
   pry-rails
   puma
   pundit
@@ -896,6 +902,8 @@ CHECKSUMS
   parser (3.3.12.0) sha256=21a6d7f755d5a24dfbdc6e6b772e4e879a52e7631a88bc5a3a134606052c9828
   patience_diff (1.2.0) sha256=f492094486af02fff4a80070fa6b4d0ebbcf4d42fb38bba29d095eef43f6822c
   pjax_rails (0.5.1) sha256=3cb4b53d874de1349014aaae2cb879c8924ec86d68f3054a0d958c995b0c8ddb
+  postmark (1.25.1) sha256=2ac110fa1b4f85a62996fdc63167922eea1c4284a9a7ceb9e007f2758d9e17be
+  postmark-rails (0.22.1) sha256=fcea27dda4f7418123d7723622ec5447df4dacacc10a20a40add0f6789135d8f
   pp (0.6.4) sha256=dfcb0fce700c41456265922884f9fe195d7fbb0674a3578e6c0f69588e82b570
   premailer (1.29.0) sha256=015f30c520701f3d47fd898886a3eaf4e5171efcc5fd239b872efd1ba61d3da0
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
